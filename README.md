@@ -1,10 +1,11 @@
-# Kame Scoop Bucket
+# Kame Scoop package index (archived)
 
-Add this bucket and install Kame with:
+This package index is no longer maintained. Install a version-pinned manifest
+from the corresponding Kame release instead:
 
 ```powershell
-scoop bucket add kame https://github.com/sebastien/scoop-kame
-scoop install kame/kame
+scoop install https://github.com/sebastien/kame/releases/download/vVERSION/kame.json
 ```
 
-The version-pinned manifest is published here by the Kame release workflow.
+Replace `VERSION` with the release version. See the [Kame distribution
+documentation](https://github.com/sebastien/kame/blob/main/docs/spec/015-distribution.md).
